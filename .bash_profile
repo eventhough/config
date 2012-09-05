@@ -6,6 +6,7 @@ alias mv='mv -i'
 alias ll='ls -lrta'
 alias ror='cd /Users/kwu/Develop/rails'
 alias ios='cd /Users/kwu/Develop/ios'
+alias html='cd /Users/kwu/Develop/html'
 #alias gitlog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 
 export PATH=${PATH}:~/bin
