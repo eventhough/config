@@ -10,7 +10,14 @@
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	type = cat-file -t
 	dump = cat-file -p
+	ap = add -p
 
 [core]
 	editor = subl -w
 	excludesfile = ~/.gitignore
+
+[help]
+	autocorrect = 10
+
+[color]
+	ui = true
