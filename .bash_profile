@@ -8,9 +8,8 @@ alias rails='cd /Users/kwu/Develop/rails'
 alias ios='cd /Users/kwu/Develop/ios'
 alias html='cd /Users/kwu/Develop/html'
 alias force='cd /Users/kwu/Develop/force'
-#alias gitlog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 
-export PATH=${PATH}:~/bin
+export PATH=/usr/local/bin:~/bin:${PATH}
 export EDITOR='subl -w'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
