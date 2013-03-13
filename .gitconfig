@@ -15,9 +15,11 @@
 [core]
 	editor = subl -w
 	excludesfile = ~/.gitignore
+	autocrlf = false
 
 [help]
 	autocorrect = 10
 
 [color]
 	ui = true
+	diff = true
