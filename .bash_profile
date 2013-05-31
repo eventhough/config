@@ -11,6 +11,14 @@ alias force='cd /Users/kwu/Develop/force'
 alias nde='cd /Users/kwu/Develop/node'
 alias simplehttp='python -m SimpleHTTPServer'
 
+# Terminal Colors 
+# http://noahfrederick.com/blog/2011/lion-terminal-theme-peppermint/
+#COLOR_BOLD="\[\e[1m\]"
+#COLOR_DEFAULT="\[\e[0m\]"
+#PS1="$COLOR_BOLD\u@\h \w \$ $COLOR_DEFAULT"
+#export CLICOLOR=1
+
+export NODE_ENV=development
 export PATH=/usr/local/bin:~/bin:${PATH}
 export EDITOR='subl -w'
 
