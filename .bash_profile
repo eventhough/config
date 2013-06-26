@@ -9,6 +9,7 @@ alias ios='cd /Users/kwu/Develop/ios'
 alias html='cd /Users/kwu/Develop/html'
 alias force='cd /Users/kwu/Develop/force'
 alias nde='cd /Users/kwu/Develop/node'
+alias phpdir='cd /Users/kwu/Develop/php'
 alias simplehttp='python -m SimpleHTTPServer'
 
 # Terminal Colors 
@@ -19,6 +20,7 @@ alias simplehttp='python -m SimpleHTTPServer'
 #export CLICOLOR=1
 
 export NODE_ENV=development
+export RACK_ENV=development
 export PATH=/usr/local/bin:~/bin:${PATH}
 export EDITOR='subl -w'
 
