@@ -26,6 +26,16 @@
 
 [color]
 	ui = true
-	
+
+[merge]
+	keepBackup = false
+	tool = p4merge
+
+[mergetool "p4merge"]
+	cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+	keepTemporaries = false
+	trustExitCode = false
+	keepBackup = false
+
 [diff]
-	algorithm = patience
+	tool = p4diff

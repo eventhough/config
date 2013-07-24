@@ -17,3 +17,7 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Other #
+######################
+*.orig
