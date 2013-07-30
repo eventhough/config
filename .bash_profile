@@ -25,3 +25,4 @@ export PATH=/usr/local/bin:~/bin:${PATH}
 export EDITOR='subl -w'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+[[ -s /Users/kwu/.nvm/nvm.sh ]] && . /Users/kwu/.nvm/nvm.sh # This loads NVM
