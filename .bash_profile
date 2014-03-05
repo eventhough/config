@@ -10,7 +10,10 @@ alias html='cd /Users/kwu/Develop/html'
 alias force='cd /Users/kwu/Develop/force'
 alias nde='cd /Users/kwu/Develop/node'
 alias phpdir='cd /Users/kwu/Develop/php'
+alias android='cd /Users/kwu/Develop/android'
+alias py='cd /Users/kwu/Develop/python'
 alias simplehttp='python -m SimpleHTTPServer'
+alias htail='heroku logs -s app -n 200 -t --app '
 
 # Terminal Colors 
 # http://noahfrederick.com/blog/2011/lion-terminal-theme-peppermint/
