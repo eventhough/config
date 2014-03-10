@@ -24,8 +24,7 @@ alias htail='heroku logs -s app -n 200 -t --app '
 
 export NODE_ENV=development
 export RACK_ENV=development
-export PATH=/usr/local/bin:${PATH}
+export PATH=/usr/local/bin:${PATH}:~/Develop/adt-bundle-mac-x86_64-20130917/sdk/platform-tools
 export EDITOR='subl -w'
 
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-# [[ -s /Users/kwu/.nvm/nvm.sh ]] && . /Users/kwu/.nvm/nvm.sh # This loads NVM
