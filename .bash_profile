@@ -26,3 +26,6 @@ export EDITOR='subl -w'
 
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 # [[ -s /Users/kwu/.nvm/nvm.sh ]] && . /Users/kwu/.nvm/nvm.sh # This loads NVM
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
