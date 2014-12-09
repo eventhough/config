@@ -13,14 +13,8 @@ export NODE_ENV=development
 export EDITOR='atom'
 export PATH=/usr/local/bin:${PATH}
 
-# # {{{
-# # Node Completion - Auto-generated, do not touch.
-# shopt -s progcomp
-# for f in $(command ls ~/.node-completion); do
-#   f="$HOME/.node-completion/$f"
-#   test -f "$f" && . "$f"
-# done
-# # }}}
-
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
