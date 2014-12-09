@@ -14,6 +14,7 @@ alias android='cd /Users/kwu/Develop/android'
 alias py='cd /Users/kwu/Develop/python'
 alias simplehttp='python -m SimpleHTTPServer'
 alias htail='heroku logs -s app -n 200 -t --app '
+alias canaryunsafe='open -a Google\ Chrome\ Canary --args --disable-web-security'
 
 export NODE_ENV=development
 export DEMO=true
