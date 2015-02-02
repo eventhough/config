@@ -9,9 +9,9 @@ alias nde='cd /Users/kevinwu/Develop/node'
 alias simplehttp='python -m SimpleHTTPServer'
 alias htail='heroku logs -s app -n 200 -t --app '
 
-export NODE_ENV=development
+export NODE_ENV='development'
+export JWT_SECRET='secret'
 export EDITOR='atom'
-export PATH=/usr/local/bin:${PATH}
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
