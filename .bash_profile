@@ -8,6 +8,7 @@ alias html='cd /Users/kevinwu/Develop/html'
 alias nde='cd /Users/kevinwu/Develop/node'
 alias simplehttp='python -m SimpleHTTPServer'
 alias htail='heroku logs -s app -n 200 -t --app '
+alias canaryunsafe='open -a Google\ Chrome\ Canary --args --disable-web-security'
 
 export NODE_ENV='development'
 export JWT_SECRET='secret'
