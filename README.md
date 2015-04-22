@@ -1,11 +1,15 @@
-## Terminal Settings
+# Terminal settings
 
-- Install the [Peppermint Theme](http://noahfrederick.com/blog/2011/lion-terminal-theme-peppermint/)
+- Clone this repo to home directory `cd ~` and link files:
 
-## Sublime
+      $ cd ~
+      $ ln -s config/.bash_profile .
+      $ ln -s config/.gitconfig .
+      $ ln -s config/.gitignore .
 
-- Create link for subl in /usr/local/bin
+- Download and install [P4Merge](http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools)
 
-## P4
+- Add p4merge to `/usr/local/bin`:
 
-- Copy p4diff and p4merge to /usr/local/bin
+      $ cd /usr/local/bin
+      $ ln -s ~/config/p4merge .
