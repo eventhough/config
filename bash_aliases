@@ -7,15 +7,5 @@ alias ll='ls -lrta'
 alias html='cd /Users/kevinwu/Develop/html'
 alias nde='cd /Users/kevinwu/Develop/node'
 alias simplehttp='python -m SimpleHTTPServer'
-alias htail='heroku logs -n 200 -t --app '
+alias htail='heroku logs -n 200 -t --remote '
 alias canaryunsafe='open -a Google\ Chrome\ Canary --args --disable-web-security'
-
-export NODE_ENV=development
-
-export EDITOR=atom
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
